@@ -1,8 +1,24 @@
 aid: yonder
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yonder.png
 name: Yonder
-description: 'Yonder is a company surfaced as a portfolio company of lux-capital, northzone, seedcamp,
-  techstars and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: 'Yonder is a UK-based financial technology company offering rewards credit and debit cards
+  — a "financial membership" that earns points on everyday spending, redeemable across 300+ dining, travel,
+  shopping, entertainment and wellness partners. Cards run on the Mastercard network with no foreign-exchange
+  fees, and Yonder is authorised and regulated by the UK Financial Conduct Authority (FCA) with FSCS-protected
+  accounts held via partner banks. Yonder ships a consumer mobile app and a help centre but does not expose
+  a public developer API or portal. Added to the API Evangelist network as a VC-portfolio lead (backers
+  include Northzone, Seedcamp and Techstars).'
 url: https://raw.githubusercontent.com/api-evangelist/yonder/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Deep Tech
+- Financial Services
+- Fintech
+- Credit Cards
+- Rewards
+- Payments
+- Consumer Finance
+- Mastercard
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.yondercard.com
+  url: https://www.yonder.com
+- type: Blog
+  url: https://www.yonder.com/blog
+- type: Support
+  url: https://help.yondercard.com/en/
+- type: TermsOfService
+  url: https://www.yonder.com/legal
+- type: PrivacyPolicy
+  url: https://www.yonder.com/legal
+- type: DomainSecurity
+  url: security/yonder-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
